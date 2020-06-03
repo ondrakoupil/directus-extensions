@@ -1,0 +1,25 @@
+{
+	"name": "Mapy.cz",
+	"version": "1.0.0",
+	"icon": "gps_fixed",
+	"types": [
+		"string"
+	],
+	"options": {
+		"defaultLat": {
+			"name": "Výchozí zem. šířka",
+			"interface": "text-input",
+			"default": 50
+		},
+		"defaultLng": {
+			"name": "Výchozí zem. výška",
+			"interface": "text-input",
+			"default": 15
+		},
+		"defaultZoom": {
+			"name": "Výchozí zoom",
+			"interface": "text-input",
+			"default": 15
+		}
+	}
+}

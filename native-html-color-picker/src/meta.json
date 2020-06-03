@@ -1,0 +1,9 @@
+{
+	"name": "Native HTML color picker",
+	"version": "1.0.0",
+	"icon": "palette",
+	"types": [
+		"string"
+	],
+	"options": {}
+}
