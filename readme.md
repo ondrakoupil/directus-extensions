@@ -15,6 +15,17 @@ Copy the output that appeared in `dist` directory to your Directus install direc
 
 Reload Directus App. There you go. 
 
+See https://github.com/directus/extension-toolkit for some more tips.
+
+Note to self: If an interface dows not appear and some crypric error appears, 
+such as `Cannot read props of undefined` or some error sduring build process,
+this should help:
+- delete .cache
+- delete node_modules and package-lock.json
+- switch to different version of Node.JS (13.6 works, 9.3 should too, v 12.X is problematic)
+- npm install again
+- it should work again
+
 Extensions
 ----------
 

@@ -142,7 +142,13 @@
 				let map = new SMap(document.getElementById(this.idForHtml), center, this.options.defaultZoom || 15);
 				this.map = map;
 				this.map.addDefaultLayer(SMap.DEF_BASE).enable();
+				this.map.addDefaultLayer(SMap.DEF_OPHOTO);
 				this.map.addDefaultControls();
+
+				let mapSwitcher = new SMap.Control.Layer();
+				mapSwitcher.addDefaultLayer(SMap.DEF_BASE);
+				mapSwitcher.addDefaultLayer(SMap.DEF_OPHOTO);
+				this.map.addControl(mapSwitcher, {left: '10px', top: '60px'});
 
 				this.map.setCursor('crosshair');
 
