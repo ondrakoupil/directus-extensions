@@ -20,6 +20,11 @@
 			"name": "Výchozí zoom",
 			"interface": "text-input",
 			"default": 15
+		},
+		"apiKey": {
+			"name": "API key pro Mapy.cz",
+			"interface": "text-input",
+			"default": ""
 		}
 	}
 }

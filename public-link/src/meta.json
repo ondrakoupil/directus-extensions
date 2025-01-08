@@ -1,0 +1,9 @@
+{
+	"name": "Public item link",
+	"version": "1.0.0",
+	"icon": "link",
+	"types": [
+		"string"
+	],
+	"options": {}
+}
