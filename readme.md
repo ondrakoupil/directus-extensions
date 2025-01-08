@@ -26,6 +26,9 @@ this should help:
 - npm install again
 - it should work again
 
+Also, when build step doesnt work:
+- npm i @directus/extension-toolkit@0.8.0
+
 Extensions
 ----------
 

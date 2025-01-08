@@ -1,0 +1,24 @@
+{
+	"name": "public-link",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"scripts": {
+		"build": "directus-extensions build",
+		"dev": "directus-extensions watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"vue": "^2.6.11",
+		"vue-hot-reload-api": "^2.3.4"
+	},
+	"devDependencies": {
+		"@directus/extension-toolkit": "^0.8.0",
+		"@vue/component-compiler-utils": "^2.6.0",
+		"cssnano": "^4.1.10",
+		"sass": "^1.17.3",
+		"vue-template-compiler": "^2.6.10"
+	}
+}
